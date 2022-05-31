@@ -562,10 +562,125 @@ body, html {
   opacity: 0.9;
 }
 
+/* line 2, ../sass/partials/_modules.scss */
+comingsoon-s1, .error-s1, .privacy-s1 {
+  background-blend-mode: multiply;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.contact-s3, .about-s3 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 13, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
+
+/* line 17, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 26, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2, .about-s1, .about-s2, .olympics-s1, .olympics-s2 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 27, ../sass/partials/_modules.scss */
+  .contact-s1 *, .contact-s2 *, .about-s1 *, .about-s2 *, .olympics-s1 *, .olympics-s2 * {
+    color: #fff !important;
+  }
+
+  /* line 36, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 37, ../sass/partials/_modules.scss */
+  .index-s1 * {
+    color: #fff !important;
+  }
+
+  /* line 46, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #999 !important;
+    border: 1px solid #666 !important;
+    color: #333 !important;
+    padding: 10px;
+  }
+  /* line 47, ../sass/partials/_modules.scss */
+  .navbar-nav *:hover {
+    opacity: 0.8;
+  }
+}
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 31, ../sass/partials/_mixins.scss */
 .coming-s1 {
   background-attachment: scroll;
   background-image: url(../img/coming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,9 +696,45 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.olympics-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/olympics/olympics-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.olympics-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/olympics/olympics-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.user-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
